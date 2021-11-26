@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit');
+
+body {
+    background-color: #ffffff;
+}
+header {
+    width: 102%;
+    height: 80px;
+    background-color: #ffffff;
+    margin-left: -18px;
+    position: fixed;
+    bottom: 590px;
+    box-shadow: 0px 2px 7px rgba(70, 50, 50, 0.3);
+    font-family: 'Outfit', sans-serif;
+    color: #25292f;
+}
+article {
+    width: 700px;
+    margin-top: 140px;
+    margin-left: 300px;
+    font-family: 'Outfit', sans-serif;
+    color: #25292f;
+}
+h1 {
+    font-size: 60px;
+    margin-bottom: -17px;
+    color: #25292f;
+}
+h2 {
+    font-size: 40px;
+}
+h3 {
+    font-size: 25px;
+}
+#image {
+    width: 650px;
+    height: 350px;
+    border-radius: 5px;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+    max-width: auto;
+}
+.codepen-logo {
+    width: 35px;
+    height: 30px;
+    position: relative;
+    top: 10px;
+}
+a {
+    text-decoration: none;
+}
+.follow {
+    color: #ffffff;
+    background-color: #f80aa9;
+    border-radius: 5%;
+    position: relative;
+    left: 5px;
+    height: 16px;
+    font-size: 13px;
+}
+.link-logocolor {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 600;
+}
+.fcc {
+    color: #838282;
+}
+.logo {
+    display: flex;
+    position: relative;
+    top: 13px;
+    left: 20px;
+}
+#logo-part {
+    position: relative;
+    left: 7px;
+    top: -12px;
+}
+.user {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    bottom: 15px;
+}
+nav {
+    float: right;
+    
+}
+.opt {
+    display: flex;
+    list-style: none;
+    position: relative;
+    right: 23px;
+    bottom: 63px;
+    font-weight: 520;
+    font-size: 16px;
+}
+.pad {
+    padding-right: 50px;
+    color: #25292f;
+}
+.star1 {
+    height: 200px;
+    width: 200x;
+    float: right;
+}
+.iconic {
+    width: 700px;
+    height: 350px;
+    border-radius: 5px;
+}
+#tribute-info {
+    font-size: 20px;
+    text-align: justify;
+}
+.text-edit {
+    font-size: 20px;
+    text-align: justify;
+}
+#img-caption {
+    margin-bottom: 30px;
+}
+.star2 {
+    float: right;
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    right: 1000px;
+}
+.wiki {
+    color: #f80aa9;
+}
+#tribute-link {
+    color: #f80aa9;
+}
+footer {
+    margin-top: 70px;
+    font-family: 'Outfit', sans-serif;
+    color: #25292f;
+    text-align: center;
+    background-color: #ffffff;
+    height: 120px;
+    padding-top: 25px;
+}
+.footy {
+    padding: 0px 30px 0px 30px;
+    color: #f80aa9;
+}
+h4 {
+    font-size: 20px;
+    margin-bottom: -8px;
+}
+.copy {
+    font-size: 13px;
+}
+.features {
+    padding-right: 50px;
+    color: #25292f;
+}
+.features:after {
+    content: "";
+    position: absolute;
+    background-color: #f80aa9;
+    height: 2px;
+    width: 0;
+    left: 38px;
+    bottom: 23px;
+    transition: 0.2s;
+}
+.features:hover:after {
+    width: 70px;
+}
+.view-in {
+    padding-right: 50px;
+    color: #25292f;
+}
+.view-in::after {
+    content: "";
+    position: absolute;
+    background-color: #f80aa9;
+    height: 2px;
+    width: 0;
+    left: 150px;
+    bottom: 23px;
+    transition: 0.2s;
+}
+.view-in:hover::after {
+    width: 101px;
+}
+.pin {
+    padding-right: 50px;
+    color: #25292f;
+}
+.pin::after {
+    content: "";
+    position: absolute;
+    background-color: #f80aa9;
+    height: 2px;
+    width: 0;
+    left: 295px;
+    bottom: 23px;
+    transition: 0.2s;
+}
+.pin:hover::after {
+    width: 75px;
+}
+.view-pins {
+    padding-right: 50px;
+    color: #25292f;
+}
+.view-pins::after {
+    content: "";
+    position: absolute;
+    background-color: #f80aa9;
+    height: 2px;
+    width: 0;
+    left: 410px;
+    bottom: 23px;
+    transition: 0.2s;
+}
+.view-pins:hover::after {
+    width: 76px;
+}
